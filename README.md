@@ -1,33 +1,43 @@
-🍔 Cadastro de Hamburguerias - Aplicação com Interface Gráfica em Python
+# 🍔 Cadastro de Hamburguerias - Interface Gráfica com Tkinter
 
-Este projeto é uma aplicação desenvolvida em Python utilizando a biblioteca Tkinter, com o objetivo de gerenciar um sistema simples de cadastro, listagem e busca de hamburguerias, incluindo suas localizações e promoções. A interface foi pensada para ser intuitiva, amigável e com elementos visuais modernos, como animações e botões personalizados.
+Este projeto é uma aplicação em Python com interface gráfica (GUI) desenvolvida com a biblioteca `tkinter`, cujo objetivo é permitir o **cadastro, listagem e busca de hamburguerias** com suas respectivas localizações e promoções.
 
-A aplicação permite ao usuário:
+## 🚀 Funcionalidades
 
-Cadastrar novas hamburguerias com nome, latitude, longitude e produtos em promoção.
+- **Adicionar Hamburgueria**  
+  Cadastre o nome, latitude, longitude e produtos promocionais da hamburgueria.
 
-Listar todas as hamburguerias cadastradas com suas respectivas informações.
+- **Listar Hamburguerias**  
+  Visualize todas as hamburguerias cadastradas com suas promoções.
 
-Buscar uma hamburgueria específica pelo nome.
+- **Buscar Hamburgueria**  
+  Procure uma hamburgueria pelo nome e visualize suas informações.
 
-Utilizar uma interface com animações de entrada e botões interativos com destaque ao passar o mouse.
+- **Interface Animada e Responsiva**  
+  Efeitos de fade-in e botões com hover tornam a experiência mais interativa.
 
-O sistema utiliza placeholders nos campos de entrada, validações simples e mensagens de feedback para facilitar a navegação e o preenchimento dos dados. Todos os dados são armazenados temporariamente em memória, o que torna o projeto ideal para fins didáticos, estudos de interfaces gráficas com Python e introdução à lógica de CRUD (Create, Read, Update, Delete).
+## 🖼️ Interface Gráfica
 
-Como executar:
-Certifique-se de ter o Python 3 instalado em sua máquina.
+A interface foi customizada com cores, fontes e animações para melhor experiência do usuário. O sistema utiliza placeholders nos campos de texto e mensagens de validação para auxiliar o preenchimento correto.
 
-Baixe ou clone o repositório.
+## 🧰 Tecnologias Utilizadas
 
-Execute o arquivo trabalho.py com o comando:
+- Python 3.x
+- Tkinter (GUI nativa do Python)
 
-bash
+## 📁 Estrutura
+
+O script principal é:
+trabalho.py
+
+markdown
 Copiar
 Editar
-python trabalho.py
-Tecnologias utilizadas:
-Python 3.x
 
-Tkinter (interface gráfica nativa do Python)
+## ▶️ Como Executar
 
-Este projeto é um exemplo prático de como criar GUIs com Python sem depender de bibliotecas externas complexas. Apesar de simples, pode ser expandido para incluir persistência em banco de dados, mapas geográficos, exportação de dados e muito mais.
+1. Certifique-se de ter o **Python 3** instalado.
+2. Baixe ou clone o repositório.
+3. Execute o script principal:
+   ```bash
+   python trabalho.py
