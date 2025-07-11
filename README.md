@@ -1,4 +1,5 @@
 🍔 Cadastro de Hamburguerias - Aplicação com Interface Gráfica em Python
+
 Este projeto é uma aplicação desenvolvida em Python utilizando a biblioteca Tkinter, com o objetivo de gerenciar um sistema simples de cadastro, listagem e busca de hamburguerias, incluindo suas localizações e promoções. A interface foi pensada para ser intuitiva, amigável e com elementos visuais modernos, como animações e botões personalizados.
 
 A aplicação permite ao usuário:
